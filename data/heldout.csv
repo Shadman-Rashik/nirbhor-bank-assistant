@@ -1,0 +1,41 @@
+id,question,lang,expected_faq_id,key_facts,notes
+101,Do I have to pay yearly for my debit card?,en,3,500,
+102,কার্ডের পিন রিসেট করার উপায় কী?,bn,5,nb go|অ্যাপ|app|atm|এটিএম|otp,
+103,Savings account e minimum koto taka balance rakhte hobe?,banglish,2,1000|1 hajar|1 হাজার,
+104,How much money can I send to another bank in one day through BEFTN?,en,7,5 lakh|5 lac|500000,
+105,অন্য ব্যাংকে বিইএফটিএন করলে টাকা কখন পৌঁছায়?,bn,8,পরবর্তী|পরের|next|কার্যদিবস|কর্মদিবস|working day,
+106,ATM theke ek bare koto taka tola jay?,banglish,9,20000|20 hajar|20 হাজার,
+107,Are branches open on Fridays?,en,10,closed,
+108,ব্যাংক স্টেটমেন্ট কীভাবে পাব?,bn,11,app|অ্যাপ|nb go,
+109,Registered phone number bodlate ki lagbe?,banglish,12,nid|এনআইডি;branch|shakha|app|শাখা|nb go,
+110,How long can an account stay inactive before it is marked dormant?,en,13,12,
+111,যৌথ অ্যাকাউন্টে সর্বোচ্চ কয়জন নাম থাকতে পারে?,bn,14,2 জন|2 holder|দুই|2 account|2 people|2 jon,
+112,Nominee change korte ke ke sign korbe?,banglish,15,nominee,
+113,What interest will I get on a 12-month fixed deposit?,en,16,9.00|9%,
+114,মেয়াদ শেষ হওয়ার আগে এফডিআর ভাঙলে কত সুদ পাব?,bn,17,4%|4 শতাংশ|4 percent|4 পার্সেন্ট|4 ভাগ,
+115,Personal loan nite hole boyosh koto hote hobe?,banglish,18,25;60,
+116,Is there a processing fee on personal loans?,en,19,1%|1 percent|1 per cent,
+117,বাড়ি কেনার জন্য ঋণ কত বছরে শোধ করা যায়?,bn,20,20,
+118,Credit card er bill kon tarikh e generate hoy?,banglish,22,5th|5 tarikh|5 তারিখ,
+119,How many days do I have to report an unauthorised transaction?,en,24,30,
+120,বিদেশ থেকে পাঠানো টাকা কত সময়ে অ্যাকাউন্টে আসে?,bn,26,24,
+121,Cheque book er 25 pata r dam koto?,banglish,27,250,
+122,Will I be charged if I close my account within a few months of opening it?,en,29,500,
+123,কেওয়াইসি আপডেটের সময় কী কী নিয়ে যেতে হবে?,bn,30,nid|এনআইডি;utility|ইউটিলিটি|বিদ্যুৎ|বিল|bill,
+124,SMS alert er jonno bochore koto taka kete?,banglish,25,120,
+125,My card was stolen last night. What number should I call?,en,4,16999,
+126,সেভিংস অ্যাকাউন্ট খুলতে সর্বনিম্ন কত টাকা জমা দিতে হয়?,bn,1,500,
+127,NB Go app e register korte ki ki lagbe?,banglish,6,otp,
+128,What is the age limit for getting a credit card?,en,21,21;65,
+129,Can I get a car loan from your bank?,en,NONE,,
+130,আপনাদের ক্রেডিট কার্ডের লিমিট কি বাড়ানো যায়?,bn,NONE,,near miss: credit card topic but limit increase is not in the FAQ
+131,Amar wife er account er statement ki ami nite pari?,banglish,NONE,,another person's account: private
+132,Do you provide student accounts with no minimum balance?,en,NONE,,near miss: minimum balance FAQ is for savings accounts
+133,আজ ইউরোর রেট কত?,bn,NONE,,live market data
+134,Apnader bank e fixed deposit er bodole mutual fund kena jay?,banglish,NONE,,near miss: FDR
+135,Is there an ATM near Gulshan 1 circle?,en,NONE,,location data not in FAQ
+136,ব্যাংকের চেয়ারম্যান কে?,bn,NONE,,
+137,Amar credit card er limit koto?,banglish,NONE,,own account data: not in FAQ
+138,Can I pay my utility bills through the NB Go app?,en,NONE,,near miss: NB Go app FAQ
+139,আমার ঋণের কিস্তি কত বাকি আছে?,bn,NONE,,own account data: not in FAQ
+140,Bank e kaj korar jonno job apply korbo kibhabe?,banglish,NONE,,careers: not in FAQ

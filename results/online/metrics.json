@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "label": "Claude Sonnet 5.5 (answered in a chat window, whole FAQ in the prompt)"
+  },
+  "metrics": {
+    "total": 40,
+    "correct": 40,
+    "in_scope": 30,
+    "in_scope_correct": 30,
+    "out_of_scope": 10,
+    "idk_correct": 10,
+    "false_idk": 0,
+    "false_answer": 0,
+    "by_language": {
+      "banglish": {
+        "correct": 13,
+        "total": 13
+      },
+      "bn": {
+        "correct": 13,
+        "total": 13
+      },
+      "en": {
+        "correct": 14,
+        "total": 14
+      }
+    },
+    "latency_ms": {
+      "mean": 0,
+      "median": 0,
+      "p95": 0.0,
+      "max": 0
+    }
+  }
+}

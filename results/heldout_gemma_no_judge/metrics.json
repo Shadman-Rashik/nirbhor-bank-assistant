@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "label": "gemma3:4b",
+    "question_set": "the self-written held-out questions",
+    "tag": "heldout_gemma_no_judge",
+    "date": "2026-11-05T08:41:00",
+    "gen_model": "gemma3:4b",
+    "embed_model": "bge-m3",
+    "use_judge": false,
+    "judge_examples": false,
+    "use_query_translation": false,
+    "retrieval_min": 0.54,
+    "w_dense": 0.6,
+    "hardware": "Colab T4 GPU",
+    "model_load_warmup_s": 0.2,
+    "python": "3.13.16",
+    "os": "Linux-6.6.159+-x86_64-with-glibc2.39"
+  },
+  "metrics": {
+    "total": 40,
+    "correct": 37,
+    "in_scope": 28,
+    "in_scope_correct": 26,
+    "out_of_scope": 12,
+    "idk_correct": 11,
+    "false_idk": 0,
+    "false_answer": 1,
+    "by_language": {
+      "banglish": {
+        "correct": 13,
+        "total": 13
+      },
+      "bn": {
+        "correct": 11,
+        "total": 13
+      },
+      "en": {
+        "correct": 13,
+        "total": 14
+      }
+    },
+    "latency_ms": {
+      "mean": 594.3,
+      "median": 550.6,
+      "p95": 1087.7,
+      "max": 2327.1
+    },
+    "retrieval_top1": 27,
+    "retrieval_top3": 28,
+    "language_detected_correctly": 40,
+    "fallback_to_faq_text": 3,
+    "model_errors": 0
+  }
+}

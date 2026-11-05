@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nirbhor Bank Assistant</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="watermark" aria-hidden="true"></div>
+  <div class="shell">
+    <header class="top">
+      <div class="brand">
+        <span class="mark" aria-hidden="true"></span>
+        <span class="name">Nirbhor Bank</span>
+        <span class="sep" aria-hidden="true">/</span>
+        <span class="role">Assistant</span>
+      </div>
+      <svg class="clock clock-sm" data-clock viewBox="0 0 100 100" aria-hidden="true"></svg>
+      <div class="status" id="status" title="Customer questions are answered on this computer and never sent to an outside AI service">
+        <span class="dot" aria-hidden="true"></span>
+        <span id="status-text">Starting…</span>
+        <span id="status-model" class="model"></span>
+      </div>
+    </header>
+
+    <main id="chat" class="chat" aria-live="polite" aria-label="Conversation">
+      <section id="welcome" class="welcome">
+        <div class="widgets">
+          <svg class="clock clock-md" data-clock viewBox="0 0 100 100" role="img" aria-label="Clock"></svg>
+          <div class="cal" id="cal" role="img" aria-label="Today's date">
+            <span class="rings" aria-hidden="true"><i></i><i></i></span>
+            <span class="cal-top" aria-hidden="true"></span>
+            <span class="cal-card"><span class="cal-mon" id="cal-mon"></span><span class="cal-day" id="cal-day"></span></span>
+          </div>
+        </div>
+        <h1>How can we help?</h1>
+        <p>Ask in English, বাংলা or Banglish. Answers come only from our FAQ.</p>
+        <div class="chips" id="chips"></div>
+      </section>
+    </main>
+
+    <form id="form" class="composer" autocomplete="off">
+      <label for="q" class="sr">Your question</label>
+      <input id="q" name="q" type="text" maxlength="500" placeholder="Type your question…" autofocus>
+      <button type="submit" id="send" aria-label="Send question">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+          <path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </form>
+
+    <footer class="foot">
+      <button id="details-toggle" class="link" type="button" aria-pressed="false">Show how each answer was decided</button>
+      <span aria-hidden="true">·</span>
+      <span>Nirbhor Bank PLC is a fictional bank</span>
+    </footer>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

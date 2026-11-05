@@ -1,0 +1,41 @@
+id,lang,expected_faq_id,key_facts,notes
+1,banglish,19,12,
+2,en,8,working day|next day;3:00|3 pm|3pm|3.00|15:00,
+3,banglish,24,16999,
+4,en,17,4%|4 percent|4 per cent;savings,
+5,en,23,500,
+6,bn,22,25,
+7,banglish,7,10 lakh|10 lac|10 লাখ|1000000|dosh lakh;5 lakh|5 lac|5 লাখ|500000|panch lakh,
+8,en,11,free;app,
+9,bn,25,120,
+10,bn,27,3 কার্য|3 কর্ম|3 দিন|3 working|তিন|3 din|3 কাজের,
+11,en,NONE,,loan interest waiver is not in the FAQ
+12,banglish,16,25000|25 thousand|25 hajar|25 হাজার,
+13,bn,NONE,,another person's account balance: not in FAQ and private
+14,bn,9,50000|50 হাজার|50 hajar;20000|20 হাজার|20 hajar,
+15,en,14,up to 2|two|2 holders|2 account holders|2 people|2 persons|2 joint,
+16,en,1,nid|passport;500,
+17,banglish,28,100;written|branch|shakha|likhito|lekha,
+18,bn,NONE,,gold price: live market data
+19,bn,NONE,,Singapore branch: not in FAQ
+20,bn,2,1000|1 হাজার|1 hajar,
+21,en,NONE,,cryptocurrency: not in FAQ
+22,bn,18,25;30000|30 হাজার,
+23,banglish,3,500,
+24,banglish,5,nb go|app|atm|otp,
+25,banglish,10,sun|robi|rabi|রবি;thu|brihos|brihas|বৃহস্পতি,
+26,bn,15,nid|এনআইডি;ছবি|photo|ফটো,
+27,bn,4,16999,
+28,en,6,nb go;otp|passcode,
+29,en,26,free|no fee|no charge|without,
+30,en,20,70,
+31,banglish,21,40000|40 hajar|40 হাজার,
+32,en,NONE,,exchange rate: live market data
+33,banglish,NONE,,bank shares: not in FAQ
+34,bn,12,nid|এনআইডি;branch|শাখা|nb go|app|অ্যাপ,
+35,banglish,13,12;deposit|jama|জমা,
+36,en,NONE,,staff phone number: not in FAQ
+37,banglish,NONE,,trap: personal loan eligibility is not a student loan; user says age 17
+38,banglish,30,5 bochor|5 bosor|5 bochhor|5 year|5 বছর|pach|panch|পাঁচ,
+39,bn,NONE,,business visa support: not in FAQ
+40,en,29,nid;branch,

@@ -1,0 +1,1 @@
+streamlit>=1.35      # only for the older demo app (app.py); the main UI (scripts/serve_ui.py) needs nothing extra

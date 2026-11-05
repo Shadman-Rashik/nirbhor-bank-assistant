@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "label": "gemma3:4b",
+    "question_set": "the 40 given test questions",
+    "tag": "ablation_keywords_only",
+    "date": "2026-11-05T07:53:16",
+    "gen_model": "gemma3:4b",
+    "embed_model": null,
+    "use_judge": true,
+    "judge_examples": false,
+    "use_query_translation": false,
+    "retrieval_min": 0.54,
+    "w_dense": 0.6,
+    "hardware": "Colab T4 GPU",
+    "model_load_warmup_s": 0.2,
+    "python": "3.13.16",
+    "os": "Linux-6.6.159+-x86_64-with-glibc2.39"
+  },
+  "metrics": {
+    "total": 40,
+    "correct": 27,
+    "in_scope": 30,
+    "in_scope_correct": 17,
+    "out_of_scope": 10,
+    "idk_correct": 10,
+    "false_idk": 13,
+    "false_answer": 0,
+    "by_language": {
+      "banglish": {
+        "correct": 6,
+        "total": 13
+      },
+      "bn": {
+        "correct": 8,
+        "total": 13
+      },
+      "en": {
+        "correct": 13,
+        "total": 14
+      }
+    },
+    "latency_ms": {
+      "mean": 443.2,
+      "median": 0.9,
+      "p95": 1182.3,
+      "max": 1566.7
+    },
+    "retrieval_top1": 30,
+    "retrieval_top3": 30,
+    "language_detected_correctly": 40,
+    "fallback_to_faq_text": 1,
+    "model_errors": 0
+  }
+}
